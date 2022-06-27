@@ -1,8 +1,11 @@
 # API-Properties
+
 ##PRIMEROS PASOS##
 
 Ejecutar el comando npm install para instalar las dependecias del proyecto
+
 #####################
+
 Crear un archivo con el nombrer "variables.env" el cual debe contener las siguientes variables de entorno
 
 MONGODB_URI="acá se debe asignar la conexion a la base de datos de mongoDB"
@@ -13,9 +16,11 @@ Key="acá asignamos la apiKey que nos genera SendGrid"
 Correo="acá asignamos el correo que emitira el mensaje"
 
 #####################
+
 Ejecutar el comando npm run dev para ejecutar el proyecto en ambiente de desarrollo
 
 #####################
+
 Probar los endpoint solicitados en una aplicacion de test API como Postman
 
 POST /api/register
