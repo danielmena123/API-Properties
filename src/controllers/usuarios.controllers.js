@@ -8,9 +8,15 @@ exports.crearUsuario = async (req, res) => {
         var usuario;
         usuario = new usuarioModel(req.body);
 
-        await usuario.save();
-        emailer.sendMail(usuario);
-        res.status(200).send(usuario);
+        var verificar = await usuarioModel.findOne({email: usuario.email});
+
+        if(!verificar){
+            await usuario.save();
+            emailer.sendMail(usuario);
+            res.status(200).send(usuario);
+        }  else {
+            res.status(500).json({message: 'este email ya esta en uso !!'});
+        }        
 
     } catch (error) {
         console.error(error);
