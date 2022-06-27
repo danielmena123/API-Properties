@@ -41,3 +41,7 @@ Al momento de generar un POST/UPDATE se debe enviar el body en el formato form-d
 El campo "cantidad_baños" se debe enviar como "cantidad_banios"
 
 #####################
+
+Aplicación de prueba en Producción:
+
+https://api-properties.herokuapp.com/
