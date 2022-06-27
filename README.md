@@ -34,8 +34,10 @@ POST /api/login
 
 GET, POST, UPDATE, DELETE /api/properties 
 
-Cabe destacara que se debe enviar con la cabecera de autorización Bear Token con el token devuelto
-Al momento de generar un POST/UPDATE se debe enviar el body en el formato form-data y las imagenes se deben agregar en la key "imagen"
+Cabe destacara que se debe enviar con la cabecera de autorización Bear Token con el token devuelto.
+
+Al momento de generar un POST/UPDATE se debe enviar el body en el formato form-data y las imagenes se deben agregar en la key "imagen".
+
 El campo "cantidad_baños" se debe enviar como "cantidad_banios"
 
 #####################
