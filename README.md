@@ -18,7 +18,7 @@ HOST=localhost
 
 Key="acá asignamos la apiKey que nos genera SendGrid"
 
-Correo="acá asignamos el correo que emitira el mensaje"
+Correo="acá asignamos el correo que emisor"
 
 #####################
 
